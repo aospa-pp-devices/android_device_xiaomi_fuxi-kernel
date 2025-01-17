@@ -84,6 +84,7 @@ kernel/drivers/char/rdbg.ko
 kernel/drivers/iommu/qcom_iommu_debug.ko
 kernel/drivers/gpu/drm/bridge/lt9611uxc.ko
 kernel/drivers/misc/qseecom_proxy.ko
+kernel/drivers/misc/hdmi_input_mux.ko
 kernel/drivers/misc/hwid/hwid.ko
 kernel/drivers/mfd/qcom-i2c-pmic.ko
 kernel/drivers/scsi/sg.ko
@@ -166,6 +167,7 @@ kernel/drivers/rpmsg/qcom_smd.ko
 kernel/drivers/virt/gunyah/gh_irq_lend.ko
 kernel/drivers/virt/gunyah/gh_mem_notifier.ko
 kernel/drivers/extcon/extcon-ktm5030.ko
+kernel/drivers/extcon/extcon-lt8711uxe2.ko
 kernel/drivers/iio/adc/qcom-spmi-adc5-gen3.ko
 kernel/drivers/iio/adc/qcom-vadc-common.ko
 kernel/drivers/iio/adc/qti-glink-adc.ko
@@ -204,6 +206,7 @@ kernel/drivers/hwtracing/stm/stm_ftrace.ko
 kernel/sound/usb/snd-usb-audio-qmi.ko
 kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 kernel/sound/soc/codecs/snd-soc-tas5805m.ko
+kernel/sound/soc/codecs/snd-soc-add2010.ko
 kernel/net/wireless/cfg80211.ko
 kernel/net/mac80211/mac80211.ko
 kernel/net/qrtr/qrtr-smd.ko
@@ -211,7 +214,6 @@ kernel/net/qrtr/qrtr-mhi.ko
 kernel/net/qrtr/qrtr-gunyah.ko
 kernel/lib/kunit/kunit.ko
 extra/vendor/qcom/opensource/mmrm-driver/driver/msm-mmrm.ko
-extra/vendor/qcom/opensource/mmrm-driver/test/mmrm_test_module.ko
 extra/vendor/qcom/opensource/mm-drivers/hw_fence/msm_hw_fence.ko
 extra/vendor/qcom/opensource/mm-drivers/msm_ext_display/msm_ext_display.ko
 extra/vendor/qcom/opensource/mm-drivers/sync_fence/sync_fence.ko
