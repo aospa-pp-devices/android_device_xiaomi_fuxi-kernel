@@ -45,7 +45,6 @@ kernel/drivers/soc/qcom/subsystem_sleep_stats.ko
 kernel/drivers/soc/qcom/adsp_sleepmon.ko
 kernel/drivers/soc/qcom/eud.ko
 kernel/drivers/soc/qcom/microdump_collector.ko
-kernel/drivers/soc/qcom/llcc_perfmon.ko
 kernel/drivers/soc/qcom/qdsp6v2/cdsp-loader.ko
 kernel/drivers/soc/qcom/pmic-pon-log.ko
 kernel/drivers/soc/qcom/boot_stats.ko
@@ -55,7 +54,6 @@ kernel/drivers/soc/qcom/usb_bam.ko
 kernel/drivers/soc/qcom/dcvs/memlat.ko
 kernel/drivers/soc/qcom/dcvs/memlat_scmi.ko
 kernel/drivers/soc/qcom/dcvs/cpufreq_stats_scmi.ko
-kernel/drivers/soc/qcom/rimps_log.ko
 kernel/drivers/soc/qcom/qcom_ramdump.ko
 kernel/drivers/soc/qcom/panel_event_notifier.ko
 kernel/drivers/soc/qcom/dmesg_dumper.ko
@@ -69,7 +67,6 @@ kernel/drivers/soc/qcom/sps/sps_drv.ko
 kernel/drivers/soc/qcom/spss_utils.ko
 kernel/drivers/soc/qcom/spcom.ko
 kernel/drivers/soc/qcom/msm_performance.ko
-kernel/drivers/soc/qcom/qcom_va_minidump.ko
 kernel/drivers/soc/qcom/qbt_handler.ko
 kernel/drivers/soc/qcom/hung_task_enh.ko
 kernel/drivers/soc/qcom/qfprom-sys.ko
@@ -101,7 +98,6 @@ kernel/drivers/usb/phy/phy-msm-snps-eusb2.ko
 kernel/drivers/usb/phy/phy-msm-m31-eusb2.ko
 kernel/drivers/usb/dwc3/dwc3-msm.ko
 kernel/drivers/usb/misc/ehset.ko
-kernel/drivers/usb/gadget/function/f_fs_ipc_log.ko
 kernel/drivers/usb/gadget/function/usb_f_cdev.ko
 kernel/drivers/usb/gadget/function/usb_f_ccid.ko
 kernel/drivers/usb/gadget/function/usb_f_qdss.ko
@@ -174,13 +170,6 @@ kernel/drivers/iio/adc/qti-glink-adc.ko
 kernel/drivers/iio/buffer/industrialio-buffer-cb.ko
 kernel/drivers/nvmem/nvmem_qfprom.ko
 kernel/drivers/interconnect/icc-test.ko
-kernel/drivers/mtd/parsers/ofpart.ko
-kernel/drivers/mtd/chips/chipreg.ko
-kernel/drivers/mtd/devices/block2mtd.ko
-kernel/drivers/mtd/mtd.ko
-kernel/drivers/mtd/mtd_blkdevs.ko
-kernel/drivers/mtd/mtdblock.ko
-kernel/drivers/mtd/mtdoops.ko
 kernel/drivers/slimbus/slimbus.ko
 kernel/drivers/slimbus/slim-qcom-ngd-ctrl.ko
 kernel/drivers/hwmon/hwmon.ko
