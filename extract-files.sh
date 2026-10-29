@@ -84,7 +84,8 @@ for MODULE_FOLDER in "${MODULE_FOLDERS[@]}"; do
     MODULE_SRC="${DUMP}/${MODULE_FOLDER}"
     if [ "${MODULE_FOLDER}" == "vendor_ramdisk" ]; then
         lz4 -qd "${TMP_DIR}/vendor_boot.out/vendor_ramdisk00" "${TMP_DIR}/vendor_ramdisk.cpio"
-        7z x "${TMP_DIR}/vendor_ramdisk.cpio" -o"${TMP_DIR}/vendor_ramdisk" > /dev/null
+        mkdir -p "${TMP_DIR}/vendor_ramdisk"
+        (cd "${TMP_DIR}/vendor_ramdisk" && cpio -idmu --quiet < "${TMP_DIR}/vendor_ramdisk.cpio")
         MODULE_SRC="${TMP_DIR}/vendor_ramdisk"
     fi
     [ -d "${MODULE_SRC}" ] || break
